@@ -1,0 +1,71 @@
+.b1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-left: 28%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(206, 31, 151, 0.7) 37.16%, #8c1f94 80.09%);
+    filter: blur(0.3px);
+}
+.b2{
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    margin-top: 175px;
+    margin-left: 52%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(194, 25, 140, 0.7) 37.16%, #55165a 80.09%, #5b125f 80.09%);
+    filter: blur(0.3px);
+}
+
+.b3{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 30%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(145, 25, 107, 0.7) 37.16%, #3c153f 80.09%);
+    filter: blur(0.3px);
+}
+.b4{
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+    margin-top: 11%;
+    margin-left: -8%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(194, 25, 140, 0.7) 37.16%, #55165a 80.09%, #5b125f 80.09%);
+    filter: blur(0.3px);
+}
+.b5{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -2%;
+    margin-left: -2%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(206, 31, 151, 0.7) 37.16%, #8c1f94 80.09%);
+    filter: blur(0.3px);
+}
+.b6{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: -12%;
+    margin-left: -37%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(206, 31, 151, 0.7) 37.16%, #8c1f94 80.09%);
+    filter: blur(0.3px);
+}
+.b7{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-left: -30%;
+    position: absolute;
+    background: linear-gradient(146.51deg, rgba(194, 25, 140, 0.7) 37.16%, #55165a 80.09%, #5b125f 80.09%);
+    filter: blur(0.3px);
+}
