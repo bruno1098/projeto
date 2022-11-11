@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 *{
     box-sizing: border-box
 }
@@ -5,12 +6,12 @@ body{
     padding: 0;
     margin: 0;
     position: relative;
-    background-color: aqua;
+    background-color: rgba(233, 3, 214, 0.452);
     box-sizing: border-box;
 }
-header{
+.head{
     border: 5px;
-    border-color: #121212;
+    border-color: #000000;
 }
 .head{
     width: 100%;
@@ -23,15 +24,12 @@ header{
 }
 form{
     position: absolute;
-    top: 52%;
+    top: 54.7%;
     left: 80%;
-    transform: translate(-50%, -50%);
-    background: rgb(238, 236, 234);
-    height: 40%;
+    height: 39%;
     width: 15%;
-    border-radius: 40px;
-    padding: 4px;
-
+    transform: translate(-50%, -50%);
+    transition: 0s;
 }
 button{
     color: #121212;
@@ -58,9 +56,22 @@ button{
     line-height: 40px;
     width: 0px;
 }
+form:hover{
+    display: flex;
+    top: 52%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    background:rgb(0, 0, 0);
+    height: 39%;
+    width: 15%;
+    border-radius: 40px;
+    padding: 3px;
+}
 form:hover > .search{
-    width: 85%;
-    padding: -10px;
+    width: 67%;
+    margin-top: -3px;
+    margin-left: 24px;
+    background-color: aqua;
 }
 
 form:hover > button{

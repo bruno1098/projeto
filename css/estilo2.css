@@ -153,8 +153,12 @@ body{
     color: rgb(193, 163, 218);
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1200px) {
+    img{
+        display: none;
+    }
     .container {
+        display: flex;
         width: 90%;
         height: auto; 
         margin: 0 auto;
@@ -166,6 +170,7 @@ body{
         flex-wrap: nowrap;
         max-height: 10rem;
         padding-right: 5rem;
+        justify-content: center;
     }
     .gender-input {
         margin-top: 2rem;
