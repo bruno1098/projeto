@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+	margin: 0;
+    display: flex;
+	position: relative;
+    justify-content: center;
+    align-items: center;
+    background: #29162E;
+    overflow-x: hidden;
+
+}
+.container{
+	height: 80%;
+	width: 80%;
+	margin: 0;
+    color: red;
+	font-size: 25px;
+	background-color: red;
+	color: white;
+	flex-direction: column;
+}
+.m1{
+    width: 180px;
+    height: 96px;
+    left: 1px;
+    top: 1px;
+    margin-top: 1px;
+    margin-left: 1px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+}
+.Rock{
+    align-items: center;
+}
+
+.m2{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: -355px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.MPB{
+    align-items: center;
+    color: white;
+}
+
+.m3{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: -120px;
+    margin-left: -55px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.POP{
+    align-items: center;
+    color: white;
+}
+
+
+.m4{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: -55px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+
+.trap{
+    align-items: center;
+    color: white;
+}
+
+.m5{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: -120px;
+    margin-left: 250px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+.samba{
+    align-items: center;
+    color: white;
+}
+
+.m6{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: 250px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+
+.eletronico{
+    align-items: center;
+    color: white;
+}
+.letra{
+    width:  800px;
+    height: 116px;
+    margin-top: -300px;
+    margin-left: 31px;
+    z-index: 1;
+    display: flex;
+    align-items: top;
+    color: white;
+    font-family: 'Inter';
+    font-style: Semi Bold;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 116px;
+    
+    
+}
+
+.neon-btn{  
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(221, 15, 194);
+    border: 6px solid rgb(221, 15, 194);
+    padding: 10px 58px;
+    border-radius: 16px;
+    text-shadow: 0 0 8px rgba(255,255, 255, 0.3), 0 0 29px rgb(221, 15, 194);
+    box-shadow: inset 0 0 28px rgb(221, 15, 194), 0 0 28px rgb(221, 15, 194);
+    position: relative;
+}
+.neon-btn::before{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(221, 15, 194);
+    left: 0;
+    top: 120%;
+    transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+    filter: blur(64px);
+    opacity: 0.7;
+}
+
+.neon-btn::after{
+content: "";
+position: absolute;
+top:0;
+left:0;
+right: 0;
+bottom: 0;
+background-color:rgb(221, 15, 194);
+box-shadow: 0 0 128px 32px rgb(221, 15, 194);
+z-index: -1;
+opacity: 0;
+transition: opacity 100ms linear;
+}
+
+.neon-btn:hover::after,
+.neon-btn:focus::after {
+    opacity: 1;
+}
+.neon-btn:hover::before,
+.neon-btn:focus::before{
+    opacity: 1;
+}
+.neon-btn:focus{
+    color: black;
+    text-shadow: none;
+}
+
+
+.rodape{
+    position: absolute;
+    display: flex;
+    justify-content: end;
+    width: 98%;
+    height: 20vh;
+    top: 80vh;
+    left: 10px;
+    right: 10px;
+    background: transparent;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.btn {
+	float: inline-block;
+	width: 100px;
+	margin-top: 600px;
+	margin-left: 50px;
+}
+
+
+Rock. {
+	
+}
+

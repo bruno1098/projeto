@@ -1,0 +1,122 @@
+.container{
+	width: 80%;
+	heigth: 40rem;
+    align-items: center;
+    color: red;
+	font-size: 25px;
+	background-color: red;
+}
+.m1{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: -120px;
+    margin-left: -355px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.m2{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: -355px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.MPB{
+    align-items: center;
+    color: white;
+}
+
+.m3{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: -120px;
+    margin-left: -55px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);
+    z-index: 1;
+}
+
+.POP{
+    align-items: center;
+    color: white;
+}
+
+
+.m4{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: -55px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+
+.trap{
+    align-items: center;
+    color: white;
+}
+
+.m5{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: -120px;
+    margin-left: 250px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+.samba{
+    align-items: center;
+    color: white;
+}
+
+.m6{
+    width: 180px;
+    height: 96px;
+    left: 667px;
+    top: 323px;
+    margin-top: 50px;
+    margin-left: 250px;
+    position: absolute;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.479);
+    padding: 25px;
+    backdrop-filter: blur(4px);  
+    z-index: 1;
+}
+
+.eletronico{
+    align-items: center;
+    color: white;
+}
