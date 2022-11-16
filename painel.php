@@ -1,3 +1,9 @@
+
+<?php
+
+include('protect.php');
+
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,11 +16,14 @@
 </head>
 <body>
     <header class="head">
+    <p>
+        <a href="logout.php">Sair</a>
+    </p>
         <form action="#" method="post">
             <input name="search" class="search" placeholder="Pesquise festas" type="text" required>
             <button type="submit"><i class="fa fa-search"></i></button>
         </form>
     </header>
-    
+
 </body>
 </html>
